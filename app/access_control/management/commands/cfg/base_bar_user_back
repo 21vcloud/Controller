@@ -1,0 +1,39 @@
+{
+    "0": [
+        'main_sidebar',
+        'basic_info_sidebar',
+        'cost_center_my_order_sidebar',
+        'cost_center_contract_sidebar',
+        'identity_manage_sidebar',
+        'main_navbar',
+        'cost_center_navbar',
+        'identity_manage_navbar'
+    ],
+    "1": [
+        'main_sidebar',
+        'basic_info_sidebar',
+        'cost_center_contract_sidebar',
+        'cost_center_my_order_sidebar',
+        'main_navbar',
+        'cost_center_navbar'
+    ],
+    "2": [
+        'main_sidebar',
+        'basic_info_sidebar',
+        'cost_center_my_order_sidebar',
+        'main_navbar',
+        'cost_center_navbar',
+    ],
+    "3": [
+        'main_sidebar',
+        'basic_info_sidebar',
+        'cost_center_my_order_sidebar',
+        'main_navbar',
+        'cost_center_navbar',
+    ],
+    "4": [
+        'main_sidebar',
+        'basic_info_sidebar',
+        'main_navbar',
+    ],
+}

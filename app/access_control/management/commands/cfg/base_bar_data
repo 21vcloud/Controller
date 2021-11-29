@@ -1,0 +1,173 @@
+[
+    {
+        "element_id": "pandect",
+        "type": "sidebar",
+        "owner_path": "main",
+        "html_laber": "总览",
+        "sort_id": "0",
+        "url_path": "/bareMetalController",
+        "info": '{"id": "pandect","isSelected": false,"positionX": "-2px","positionY": "0px","liCon": "总览"}'
+    },
+    {
+        "element_id": "instance",
+        "type": "sidebar",
+        "owner_path": "main",
+        "html_laber": "实例",
+        "sort_id": "10",
+        "url_path": "/bareMetalInstanceList",
+        "info": '{"id": "instance","isSelected": false,"positionX": "-25px","positionY": "0px","liCon": "实例"}'
+    },
+    {
+        "element_id": "cloudDrive",
+        "type": "sidebar",
+        "owner_path": "main",
+        "html_laber": "云硬盘",
+        "sort_id": "20",
+        "url_path": "/bareMetalCloudDrive",
+        "info": '{"id": "cloudDrive","isSelected": false,"positionX": "-48px","positionY": "0px","liCon": "云硬盘"}'
+    },
+    {
+        "element_id": "OSBackup",
+        "type": "sidebar",
+        "owner_path": "main",
+        "html_laber": "云硬盘备份",
+        "sort_id": "30",
+        "url_path": "/bareMetalCloudDriveBackUp",
+        "info": '{"id": "OSBackup","isSelected": false,"positionX": "-72px","positionY": "0px","liCon": "云硬盘备份"}'
+    },
+    {
+        "element_id": "objectStorage",
+        "type": "sidebar",
+        "owner_path": "main",
+        "html_laber": "对象存储",
+        "sort_id": "40",
+        "url_path": "/bareMetalObjectStorage",
+        "info": '{"id": "objectStorage","isSelected": false,"positionX": "20px","positionY": "0px","liCon": "对象存储"}'
+    },
+    {
+        "element_id": "VPC",
+        "type": "sidebar",
+        "owner_path": "main",
+        "html_laber": "虚拟私有云VPC",
+        "sort_id": "50",
+        "url_path": "/bareMetalVPCList",
+        "info": '{"id": "VPC","isSelected": false,"positionX": "-95px","positionY": "0px","liCon": "虚拟私有云VPC"}'
+    },
+    {
+        "element_id": "publicIP",
+        "type": "sidebar",
+        "owner_path": "main",
+        "html_laber": "弹性公网IP",
+        "sort_id": "60",
+        "url_path": "/bareMetalPublicIp",
+        "info": '{"id": "publicIP","isSelected": false,"positionX": "-120px","positionY": "0px","liCon": "弹性公网IP"}'
+    },
+    {
+        "element_id": "fireWall",
+        "type": "sidebar",
+        "owner_path": "main",
+        "html_laber": "防火墙",
+        "sort_id": "70",
+        "url_path": "/bareMetalFirewall",
+        "info": '{"id": "fireWall","isSelected": false,"positionX": "-166px","positionY": "0px","liCon": "防火墙"}'
+    },
+    {
+        "element_id": "keyPairManage",
+        "type": "sidebar",
+        "owner_path": "main",
+        "html_laber": "密钥对",
+        "sort_id": "80",
+        "url_path": "/bareMetalKeyPair",
+        "info": '{"id": "keyPairManage","isSelected": false,"positionX": "-184px","positionY": "0px","liCon": "密钥对"}'
+    },
+    {
+        "element_id": "userProfile",
+        "type": "sidebar",
+        "owner_path": "basicInfo",
+        "html_laber": "基本资料",
+        "sort_id": "0",
+        "url_path": "/bareMetalUserProfile",
+        "info": '{"id": "userProfile","isSelected": true,"positionX": "-215px","positionY": "0px","liCon": "基本资料"}'
+    },
+    {
+        "element_id": "myOrder",
+        "type": "sidebar",
+        "owner_path": "costCenter",
+        "html_laber": "我的订单",
+        "sort_id": "0",
+        "url_path": "/bareMetalOrderManage",
+        "info": '{"id": "myOrder","isSelected": false,"positionX": "164px","positionY": "0px","liCon": "我的订单"}'
+    },
+    {
+        "element_id": "contractManage",
+        "type": "sidebar",
+        "owner_path": "costCenter",
+        "html_laber": "合同管理",
+        "sort_id": "10",
+        "url_path": "/bareMetalContractManage",
+        "info": '{"id": "contractManage","isSelected": false,"positionX": "117px","positionY": "0px","liCon": "合同管理"}'
+    },
+    {
+        "element_id": "itemManage",
+        "type": "sidebar",
+        "owner_path": "identityManage",
+        "html_laber": "项目管理",
+        "sort_id": "0",
+        "url_path": "/bareMetalItemList",
+        "info": '{"id": "itemManage","isSelected": false,"positionX": "-286px","positionY": "0px","liCon": "项目管理"}'
+    },
+    {
+        "element_id": "userManage",
+        "type": "sidebar",
+        "owner_path": "identityManage",
+        "html_laber": "用户管理",
+        "sort_id": "10",
+        "url_path": "/bareMetalUserManage",
+        "info": '{"id": "userManage","isSelected": false,"positionX": "-310px","positionY": "0px","liCon": "用户管理"}'
+    },
+    {
+        "element_id": "companyManage",
+        "type": "sidebar",
+        "owner_path": "identityManage",
+        "html_laber": "公司管理",
+        "sort_id": "20",
+        "url_path": "/bareMetalCompanyList",
+        "info": '{"id": "companyManage","isSelected": false,"positionX": "-332px","positionY": "0px","liCon": "公司管理"}'
+    },
+    {
+        "element_id": "roleManage",
+        "type": "sidebar",
+        "owner_path": "identityManage",
+        "html_laber": "角色管理",
+        "sort_id": "30",
+        "url_path": "/bareMetalRoleManage",
+        "info": '{"id": "roleManage","isSelected": false,"positionX": "-356px","positionY": "0px","liCon": "角色管理"}'
+    },
+    {
+        "element_id": "basicInfo",
+        "type": "navbar",
+        "owner_path": "main",
+        "html_laber": "基本资料",
+        "sort_id": "0",
+        "url_path": "/bareMetalUserProfile",
+        "info": '{"path": "/bareMetalUserProfile"}'
+    },
+    {
+        "element_id": "costCenter",
+        "type": "navbar",
+        "owner_path": "main",
+        "html_laber": "费用中心",
+        "sort_id": "10",
+        "url_path": "/bareMetalOrderManage",
+        "info": '{"path": "/bareMetalOrderManage"}'
+    },
+    {
+        "element_id": "identityManage",
+        "type": "navbar",
+        "owner_path": "main",
+        "html_laber": "身份管理",
+        "sort_id": "20",
+        "url_path": "/bareMetalUserManage",
+        "info": '{"path": "/bareMetalUserManage"}'
+    }
+]

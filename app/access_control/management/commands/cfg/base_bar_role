@@ -1,0 +1,69 @@
+[
+    {
+        "name": "main_sidebar",
+        "notices": "基础主页面目录树,用于基本用户的sidebar显示",
+        "element_info": [
+            {"element_id": "pandect", "type": "sidebar","owner_path": "main"},
+            {"element_id": "instance", "type": "sidebar","owner_path": "main"},
+            {"element_id": "cloudDrive", "type": "sidebar","owner_path": "main"},
+            {"element_id": "OSBackup", "type": "sidebar","owner_path": "main"},
+            {"element_id": "objectStorage", "type": "sidebar","owner_path": "main"},
+            {"element_id": "VPC", "type": "sidebar","owner_path": "main"},
+            {"element_id": "publicIP", "type": "sidebar","owner_path": "main"},
+            {"element_id": "fireWall", "type": "sidebar","owner_path": "main"},
+            {"element_id": "keyPairManage", "type": "sidebar","owner_path": "main"}
+        ]
+    },
+    {
+        "name": "basic_info_sidebar",
+        "notices": "用户基本信息左侧目录树,用户基本信息左侧目录树的sidebar显示",
+        "element_info": [
+            {"element_id": "userProfile", "type": "sidebar","owner_path": "basicInfo"}
+        ]
+    },
+    {
+        "name": "cost_center_my_order_sidebar",
+        "notices": "用户费用中心左侧目录树部分内容,用于用户费用中心的sidebar显示",
+        "element_info": [
+            {"element_id": "myOrder", "type": "sidebar","owner_path": "costCenter"}
+        ]
+    },
+    {
+        "name": "cost_center_contract_sidebar",
+        "notices": "用户费用中心左侧目录树部分内容,用于用户费用中心的sidebar显示",
+        "element_info": [
+            {"element_id": "contractManage", "type": "sidebar","owner_path": "costCenter"}
+        ]
+    },
+    {
+        "name": "identity_manage_sidebar",
+        "notices": "用户身份管理左侧目录树,用于用户身份管理的sidebar显示",
+        "element_info": [
+            {"element_id": "itemManage", "type": "sidebar","owner_path": "identityManage"},
+            {"element_id": "userManage", "type": "sidebar","owner_path": "identityManage"},
+            {"element_id": "companyManage", "type": "sidebar","owner_path": "identityManage"},
+            {"element_id": "roleManage", "type": "sidebar","owner_path": "identityManage"}
+        ]
+    },
+    {
+        "name": "main_navbar",
+        "notices": "基础导航栏目录树,用于基本用户的navbar显示",
+        "element_info": [
+            {"element_id": "basicInfo", "type": "navbar","owner_path": "main"}
+        ]
+    },
+    {
+        "name": "cost_center_navbar",
+        "notices": "用户导航栏目录树部分内容,用于用户主账号的navbar显示",
+        "element_info": [
+            {"element_id": "costCenter", "type": "navbar","owner_path": "main"}
+        ]
+    },
+    {
+        "name": "identity_manage_navbar",
+        "notices": "用户导航栏目录树部分内容,用于用户主账号的navbar显示",
+        "element_info": [
+            {"element_id": "identityManage", "type": "navbar","owner_path": "main"}
+        ]
+    }
+]

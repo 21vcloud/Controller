@@ -1,0 +1,342 @@
+[
+    {
+        "name": "instance_edit",
+        "notices": "主页配置操作角色",
+        "element_info": [
+            {"element_id": "web_login", "owner_path": "instance"},
+            {"element_id": "connection_network", "owner_path": "instance"},
+            {"element_id": "separation_network", "owner_path": "instance"},
+            {"element_id": "reboot", "owner_path": "instance"},
+            {"element_id": "shutdown", "owner_path": "instance"},
+            {"element_id": "boot", "owner_path": "instance"}
+        ]
+    },
+    {
+        "name": "instance_delete",
+        "notices": "主页删除操作角色",
+        "element_info": [
+            {"element_id": "delete", "owner_path": "instance"},
+            {"element_id": "instance_delete", "owner_path": "instance"}
+        ]
+    },
+    {
+        "name": "instance_cost",
+        "notices": "主页涉及金额操作角色",
+        "element_info": [
+            {"element_id": "create", "owner_path": "instance"}
+        ]
+    },
+    {
+        "name": "cloud_drive_edit",
+        "notices": "云硬盘编辑操作角色",
+        "element_info": [
+            {"element_id": "edit", "owner_path": "cloudDrive"},
+            {"element_id": "mount", "owner_path": "cloudDrive"},
+            {"element_id": "unmount", "owner_path": "cloudDrive"}
+        ]
+    },
+    {
+        "name": "cloud_drive_create",
+        "notices": "云硬盘创建操作角色",
+        "element_info": [
+            {"element_id": "create_backup", "owner_path": "cloudDrive"}
+        ]
+    },
+    {
+        "name": "cloud_drive_delete",
+        "notices": "云硬盘删除操作角色",
+        "element_info": [
+            {"element_id": "delete", "owner_path": "cloudDrive"},
+            {"element_id": "cloud_drive_delete", "owner_path": "cloudDrive"}
+        ]
+    },
+    {
+        "name": "cloud_drive_cost",
+        "notices": "云硬盘涉及费用操作角色",
+        "element_info": [
+            {"element_id": "create", "owner_path": "cloudDrive"},
+            {"element_id": "scale_up", "owner_path": "cloudDrive"}
+        ]
+    },
+    {
+        "name": "os_backup_delete",
+        "notices": "云硬盘备份删除操作角色",
+        "element_info": [
+            {"element_id": "delete", "owner_path": "OSBackup"},
+            {"element_id": "cloud_drive_delete", "owner_path": "OSBackup"}
+        ]
+    },
+    {
+        "name": "os_backup_cost",
+        "notices": "云硬盘备份涉及金额操作角色",
+        "element_info": [
+            {"element_id": "create", "owner_path": "OSBackup"},
+            {"element_id": "cloud_drive_create", "owner_path": "OSBackup"}
+        ]
+    },
+    {
+        "name": "object_storage_edit",
+        "notices": "对象存储编辑操作角色",
+        "element_info": [
+            {"element_id": "edit", "owner_path": "objectStorage"}
+        ]
+    },
+    {
+        "name": "object_storage_delete",
+        "notices": "对象存储删除操作角色",
+        "element_info": [
+            {"element_id": "delete", "owner_path": "objectStorage"},
+            {"element_id": "storage_delete", "owner_path": "objectStorage"}
+        ]
+    },
+    {
+        "name": "object_storage_cost",
+        "notices": "对象存储涉及金额操作角色",
+        "element_info": [
+            {"element_id": "create", "owner_path": "objectStorage"}
+        ]
+    },
+    {
+        "name": "vpc_edit",
+        "notices": "虚拟私有云VPC编辑操作角色",
+        "element_info": [
+            {"element_id": "edit", "owner_path": "VPC"},
+            {"element_id": "delete", "owner_path": "VPC"},
+            {"element_id": "delete_vpc", "owner_path": "VPC"}
+        ]
+    },
+    {
+        "name": "vpc_create",
+        "notices": "虚拟私有云VPC新建操作角色",
+        "element_info": [
+            {"element_id": "edit", "owner_path": "VPC"},
+            {"element_id": "create_network", "owner_path": "VPC"},
+        ]
+    },
+    {
+        "name": "public_ip_edit",
+        "notices": "弹性公网IP编辑操作角色",
+        "element_info": [
+            {"element_id": "firewall_edit", "owner_path": "publicIP"},
+            {"element_id": "binding", "owner_path": "publicIP"},
+            {"element_id": "unbinding", "owner_path": "publicIP"}
+        ]
+    },
+    {
+        "name": "public_ip_delete",
+        "notices": "弹性公网IP删除操作角色",
+        "element_info": [
+            {"element_id": "delete", "owner_path": "publicIP"},
+            {"element_id": "public_ip_delete", "owner_path": "publicIP"}
+        ]
+    },
+    {
+        "name": "public_ip_cost",
+        "notices": "弹性公网IP涉及金额操作角色",
+        "element_info": [
+            {"element_id": "create", "owner_path": "publicIP"},
+            {"element_id": "bandwidth_edit", "owner_path": "publicIP"}
+        ]
+    },
+    {
+        "name": "fire_wall_edit",
+        "notices": "防火墙编辑操作角色",
+        "element_info": [
+            {"element_id": "rule_edit", "owner_path": "fireWall"},
+            {"element_id": "edit", "owner_path": "fireWall"},
+            {"element_id": "delete", "owner_path": "fireWall"},
+            {"element_id": "fire_wall_delete", "owner_path": "fireWall"}
+        ]
+    },
+    {
+        "name": "fire_wall_create",
+        "notices": "防火墙新建操作角色",
+        "element_info": [
+            {"element_id": "create", "owner_path": "fireWall"}
+        ]
+    },
+    {
+        "name": "key_pair_manage_edit",
+        "notices": "密钥对编辑操作角色",
+        "element_info": [
+            {"element_id": "import", "owner_path": "keyPairManage"},
+            {"element_id": "delete", "owner_path": "keyPairManage"}
+        ]
+    },
+    {
+        "name": "key_pair_manage_create",
+        "notices": "密钥对新建操作角色",
+        "element_info": [
+            {"element_id": "create", "owner_path": "keyPairManage"}
+        ]
+    },
+    {
+        "name": "key_pair_manage_delete",
+        "notices": "密钥对新建操作角色",
+        "element_info": [
+            {"element_id": "delete", "owner_path": "keyPairManage"},
+            {"element_id": "key_pair_manage_delete", "owner_path": "keyPairManage"}
+        ]
+    },
+    {
+        "name": "user_profile_edit",
+        "notices": "基本资料编辑操作角色",
+        "element_info": [
+            {"element_id": "mail_edit", "owner_path": "userProfile"},
+            {"element_id": "mail_phone", "owner_path": "userProfile"},
+            {"element_id": "mail_password", "owner_path": "userProfile"},
+            {"element_id": "mail_address", "owner_path": "userProfile"},
+            {"element_id": "mail_industry", "owner_path": "userProfile"}
+        ]
+    },
+    {
+        "name": "my_order_edit",
+        "notices": "我的订单编辑操作角色",
+        "element_info": [
+            {"element_id": "export", "owner_path": "myOrder"},
+            {"element_id": "resource", "owner_path": "myOrder"}
+        ]
+    },
+    {
+        "name": "contract_manage_delete",
+        "notices": "合同管理删除操作角色",
+        "element_info": [
+            {"element_id": "termination", "owner_path": "contractManage"}
+        ]
+    },
+    {
+        "name": "contract_manage_cost",
+        "notices": "合同管理涉及金额操作角色",
+        "element_info": [
+            {"element_id": "create", "owner_path": "contractManage"},
+            {"element_id": "edit", "owner_path": "contractManage"},
+            {"element_id": "enable", "owner_path": "contractManage"},
+            {"element_id": "wait", "owner_path": "contractManage"},
+        ]
+    },
+    {
+        "name": "item_manage_edit",
+        "notices": "项目管理编辑操作角色",
+        "element_info": [
+            {"element_id": "edit", "owner_path": "itemManage"},
+            {"element_id": "edit_user", "owner_path": "itemManage"},
+            {"element_id": "edit_quota", "owner_path": "itemManage"},
+            {"element_id": "prohibit", "owner_path": "itemManage"},
+            {"element_id": "enable", "owner_path": "itemManage"},
+        ]
+    },
+    {
+        "name": "item_manage_create",
+        "notices": "项目管理新建操作角色",
+        "element_info": [
+            {"element_id": "create", "owner_path": "itemManage"}
+        ]
+    },
+    {
+        "name": "item_manage_delete",
+        "notices": "项目管理删除操作角色",
+        "element_info": [
+            {"element_id": "delete", "owner_path": "itemManage"},
+            {"element_id": "item_manage_delete", "owner_path": "itemManage"}
+        ]
+    },
+    {
+        "name": "user_manage_edit",
+        "notices": "用户管理编辑操作角色",
+        "element_info": [
+            {"element_id": "edit", "owner_path": "userManage"},
+            {"element_id": "edit_password", "owner_path": "userManage"},
+            {"element_id": "enable", "owner_path": "userManage"},
+            {"element_id": "prohibit", "owner_path": "userManage"}
+        ]
+    },
+    {
+        "name": "user_manage_create",
+        "notices": "用户管理创建操作角色",
+        "element_info": [
+            {"element_id": "create", "owner_path": "userManage"}
+        ]
+    },
+    {
+        "name": "user_manage_delete",
+        "notices": "用户管理删除操作角色",
+        "element_info": [
+            {"element_id": "delete", "owner_path": "userManage"},
+            {"element_id": "user_manage_delete", "owner_path": "userManage"}
+        ]
+    },
+    {
+        "name": "company_manage_edit",
+        "notices": "公司管理编辑操作角色",
+        "element_info": [
+            {"element_id": "edit", "owner_path": "companyManage"}
+        ]
+    },
+    {
+        "name": "company_manage_create",
+        "notices": "公司管理创建操作角色",
+        "element_info": [
+            {"element_id": "create", "owner_path": "companyManage"}
+        ]
+    },
+    {
+        "name": "company_manage_delete",
+        "notices": "公司管理删除操作角色",
+        "element_info": [
+            {"element_id": "delete", "owner_path": "companyManage"},
+            {"element_id": "company_manage_delete", "owner_path": "companyManage"}
+        ]
+    },
+    {
+        "name": "role_manage_edit",
+        "notices": "角色管理编辑操作角色",
+        "element_info": [
+            {"element_id": "edit", "owner_path": "roleManage"}
+        ]
+    },
+    {
+        "name": "role_manage_create",
+        "notices": "角色管理新建操作角色",
+        "element_info": [
+            {"element_id": "create", "owner_path": "roleManage"}
+        ]
+    },
+    {
+        "name": "role_manage_delete",
+        "notices": "角色管理删除操作角色",
+        "element_info": [
+            {"element_id": "delete", "owner_path": "roleManage"},
+            {"element_id": "role_manage_delete", "owner_path": "roleManage"}
+        ]
+    },
+    {
+        "name": "firewall_rules_edit",
+        "notices": "防火墙规则编辑",
+        "element_info": [
+            {"element_id": "create", "owner_path": "firewallRules"},
+            {"element_id": "delete", "owner_path": "firewallRules"},
+            {"element_id": "edit", "owner_path": "firewallRules"},
+            {"element_id": "firewall_rules_delete", "owner_path": "firewallRules"},
+        ]
+    },
+    {
+        "name": "network_edit",
+        "notices": "网络编辑",
+        "element_info": [
+            {"element_id": "create", "owner_path": "network"},
+            {"element_id": "delete", "owner_path": "network"},
+            {"element_id": "edit", "owner_path": "network"},
+        ]
+    },
+    {
+        "name": "bucket_edit",
+        "notices": "桶编辑",
+        "element_info": [
+            {"element_id": "create", "owner_path": "bucket"},
+            {"element_id": "delete", "owner_path": "bucket"},
+            {"element_id": "bucket_delete", "owner_path": "bucket"},
+            {"element_id": "upload", "owner_path": "bucket"},
+            {"element_id": "download", "owner_path": "bucket"},
+        ]
+    },
+]
